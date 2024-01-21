@@ -13,6 +13,4 @@ dataset.define_population(has_registration)
 
 dataset.sex = patients.sex
 dataset.age = patient.age_on(index_date)
-dataset.height = patient.height
-dataset.weight = patient.weight
 
